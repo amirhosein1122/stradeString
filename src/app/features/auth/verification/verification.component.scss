@@ -1,0 +1,116 @@
+
+.card{
+  width: 300px;
+  height: 600px;
+  margin: auto;
+}
+
+.titleA{
+  margin-top: 20px;
+  margin-left: 50px;
+  color:darkgreen;
+}
+.titleB{
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: darkgreen;
+
+}
+
+.round{
+
+  width: 470.53px;
+  height: 376.413px;
+  transform: rotate(356deg);
+  flex-shrink: 0;
+  background: #46924D;
+  border-radius: 70%;
+  margin-left: -79px;
+}
+.round1 {
+  border-radius: 60%;
+
+  width: 448.53px;
+  height: 359.413px;
+
+  transform: rotate(2deg);
+  background: white;
+  margin-top: 2px;
+  margin-left: 28px;
+  position: absolute;}
+.b {
+  transform: rotate(3deg);
+  margin-top: 68px;
+  margin-left: 85px;
+  width: fit-content;
+}
+.c{
+  width: 311px;
+  height: 200px;
+  z-index: -1;
+  background: #5AA060;
+  margin-top: -50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+.all{
+  position: relative;
+  z-index: 1;
+
+
+}
+.sign-up {
+  width: 100px;
+  height: 30px;
+  --border-radius: 132px;
+  margin-top: 10px;
+  --background: #FC8211;
+  --box-shadow: -1px -1px 2px 2px #68B96F, 2px 3px 2px 0px #518B56;
+}
+.h{
+  min-height: 32px;
+  position: relative;
+  --background: none;
+  border-radius: 21px;
+  box-shadow:0.4241274893283844px 0.6361912488937378px 1.2239552736282349px #437B48 inset, -1.9085737466812134px -1.9085737466812134px 0.6361912488937378px -0.4241274893283844px #84B988 inset, 0px 0.8482549786567688px 0.8482549786567688px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  color:white;
+  --padding-start: 30px;
+  --padding-end: 30px;
+
+}
+.hh{
+  min-height: 32px;
+  position: relative;
+  --background: none;
+  border-radius: 21px;
+  box-shadow:0.4241274893283844px 0.6361912488937378px 1.2239552736282349px #437B48 inset, -1.9085737466812134px -1.9085737466812134px 0.6361912488937378px -0.4241274893283844px #84B988 inset, 0px 0.8482549786567688px 0.8482549786567688px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  color:white;
+  --padding-start: 15px;
+  --padding-end: 5px;
+
+}
+.label{
+  color: white;
+  margin-bottom: 5px;
+
+}
+ion-input {
+  --background: #5AA060;
+  --border-radius: 21px;
+
+  --placeholder-color: white;
+
+}

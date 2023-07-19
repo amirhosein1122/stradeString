@@ -1,0 +1,33 @@
+<ion-card class="card">
+  <ion-card-title class="titleA">welcome to
+  </ion-card-title >
+  <ion-card-title class="titleB">Trade string
+  </ion-card-title>
+<div class="all"></div>
+    <div class="round">
+      <div class="round1">
+         <div class="b">
+           <ion-img  src="/assets/man.png"></ion-img>
+         </div>
+      </div>
+      </div>
+  <div class="c">
+    <form [formGroup]="signInForm">
+      <ion-row>
+          <ion-col size="4" >
+            <ion-label  class="label">C Code</ion-label>
+            <ion-input   placeholder="+98"  class="hh"></ion-input>
+          </ion-col>
+          <ion-col size="8">
+            <ion-label  class="label">phone number</ion-label>
+            <ion-input class="h"  placeholder="09335995321" formControlName="mobile"></ion-input>
+            <ion-label  *ngIf="signInForm.controls['mobile'].errors && submit" >
+              <span *ngIf="!signInForm.controls['mobile'].value">value required</span>
+              <span *ngIf="signInForm.controls['mobile'].value">mobile invalid</span>
+            </ion-label>
+          </ion-col>
+      </ion-row>
+        </form>
+    <ion-button class="sign-up" (click)="loginSubmit()"> Sign up </ion-button>
+  </div>
+</ion-card>
